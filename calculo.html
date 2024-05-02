@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CALCULO</title>
+</head>
+
+<body>
+    <div class="container-form">
+        <h1>Calculo Salarial</h1>
+        <div class="boxform">
+            <img id="img2" src="./img/Pie Diagram.png">
+            </a>
+            <form action="">
+                <label id="ficha">
+                    Ficha de Funcionário
+                </label>
+                <fieldset id="fdset">
+                    <legend>
+                        Dados de entrada
+                    </legend>
+                    <label>Funcionário......:</label>
+                    <input type="text" name="Funcionário" id="">
+                    <br>
+                    <label>Cargo............:</label>
+                    <select name="" id="">
+                        <option value="." aria-readonly="true">SELECIONE UM CARGO</option>
+                        <option value="TI">TI</option>
+                        <option value="ADM">ADM</option>
+                        <option value="GERENTE">GERENTE</option>
+                        <option value="ESTAGIÁRIO">ESTAGIÁRIO</option>
+                    </select>
+                    <br>
+                    <label>Horas trabalhadas:</label>
+                    <input type="text" name="HrsTrabs" id="HrsTrabs">
+                    <br>
+                    <label>Valor Hora.......:</label>
+                    <input type="text" name="" id="valHrs">
+                </fieldset>
+                <input type="button" value="Calcular" id="calc">
+                <input type="reset" value="Novo">
+
+                <fieldset>
+                    <legend>Dados de Saída</legend>
+                    <label>Salario Bruto....:</label>
+                    <input type="text" id="Sal-Bruto" readonly>
+                    <br>
+                    <label>Desconto.........:</label>
+                    <input type="text" id="Desconto" readonly>
+                    <br>
+                    <label>Salário Líquido..:</label>
+                    <input type="text" id="Sal-Liq" readonly>
+                    <br>
+                </fieldset>
+            </form>
+        </div>
+        <a id="Voltar" href="index.html">Voltar</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
